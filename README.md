@@ -11,7 +11,6 @@ FlowGuard é um sistema completo de monitoramento de alagamentos baseado em IoT,
 -  Tecnologias Utilizadas
 - nstruções de Execução e Testes
 -  Rotas Disponíveis (via Swagger)
--  Exemplos de JSON para teste
 -  Considerações Finais e Impacto Social
 
 ---
@@ -92,47 +91,6 @@ http://localhost:8080/swagger-ui/index.html
 | POST   | `/regioes`          | Cadastra uma nova região                    |
 | PUT    | `/regioes/{id}`     | Atualiza os dados de uma região             |
 | DELETE | `/regioes/{id}`     | Exclui uma região pelo ID                   |
-
----
-
-## 📄 Exemplos de JSON para teste 
-
-### POST /auth/register
-```json
-{
-  "nome": "Carla Mendes",
-  "cpf": 18219822821,
-  "email": "carla@gmail.com",
-  "senha": "Doritos",
-  "role": "ADMIN"
-}
-```
-
-### PUT /api/usuario/{id}
-```json
-{
-  "nome": "Carla Mendes",
-  "email": "carlamendes@gmail.com",
-  "senha": "BatataDoce"
-}
-```
-
-### POST /auth/login
-```json
-{
-  "email": "carla@gmail.com",
-  "senha": "BatataDoce"
-}
-```
-
-### POST /api/regiao
-```json
-{
-  "estado": "SP",
-  "distrito": "Itaquera"
-}
-
-```
 
 ---
 
