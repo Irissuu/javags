@@ -25,7 +25,8 @@ FlowGuard é um sistema completo de monitoramento de alagamentos baseado em IoT,
 ## 🎥 Vídeos
 
 > <a href="https://youtu.be/2FZtU9p_QFM?si=WXAlWfOYOdt-qaK5">Vídeo pitch</a> </br>
-> <a href="">Vídeo demosntração</a>
+> <a href="https://youtu.be/ovMYU0RK2gE?si=TLabAfz_QdLOYZ9Y">Vídeo demosntração</a>
+> <a href="https://flowguard-api.onrender.com">Deploy Render</a>
 
 ---
 
